@@ -55,7 +55,7 @@
                                   </div>
 
                                   <div class="row g-3">
-                                    <div class=col-sm-6 pb-3>
+                                    <div class="col-sm-6 pb-3">
                                         <label for="ciudad">Ciudad</label>
                                         <input class="form-control" id="ciudad" type="text">
                                     </div>
@@ -85,19 +85,38 @@
                                           </select>
                                     </div>
                                     <!--código postal-->
-                                <div class=col-sm-3 pb-3>
+                                <div class="col-sm-3 pb-3">
                                     <label for="CP">Código Postal</label>
                                     <input class="form-control" id="CP" type="text">
                                 </div>
                                   </div>
                                   <div class="row g-3">
                                 <!--tarjetas-->
-                                    <div class="col-sm-6 pb-3">
+                                    <div  class="col-sm-3 pb-3">
                                         <p>We accept:</p>
+                                        <span class="badge text-bg-secondary" style="height: 35px; line-height: 22px;">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="payMethod" id="payMethod1" value="mastercard">
+                                            <label class="form-check-label" for="payMethod1"><i class="fa-brands fa-cc-mastercard fa-xl" style="color: #ffffff;"></i></label>
+                                          </div>
+                                          <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="payMethod" id="payMethod2" value="visa">
+                                            <label class="form-check-label" for="payMethod2"><i class="fa-brands fa-cc-visa fa-xl"style="color: #ffffff;"></i></label>
+                                          </div>
+                                          <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="payMethod" id="payMethod3" value="diners-club">
+                                            <label class="form-check-label" for="payMethod3"><i class="fa-brands fa-cc-diners-club fa-xl" style="color: #ffffff;"></i></label>
+                                          </div>
+                                          <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="payMethod" id="payMethod4" value="paypal">
+                                            <label class="form-check-label" for="payMethod4"><i class="fa-brands fa-cc-paypal fa-xl" style="color: #ffffff;"></i></label>
+                                          </span>
+                                        </div>
 
                                     </div>
+                                    <div class="col-sm-3 pb-3"></div>
                                     <!--mensaje-->
-                                <div class="col-sm-6" pb-3>
+                                <div class="col-sm-6 pb-3">
                                     <label for="mensaje" class="form-label">Mensaje</label>
                                     <textarea class="form-control" id="mensaje" rows="3"></textarea>
                                     <small style="color: gray;">Add any notes there.</small>
